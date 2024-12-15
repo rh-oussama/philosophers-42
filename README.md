@@ -1,9 +1,10 @@
-# Philosophers: "I Never Thought Philosophy Would Be So Deadly"  
+# Philosophers
 
 This is a C-based simulation of the **Dining Philosophers Problem**, where philosophers sit around a table with a bowl of spaghetti and a fork between each pair. The challenge is to create a simulation where each philosopher must alternately think, eat, and sleep without starving to death. The project aims to teach the fundamentals of threading and synchronization mechanisms such as **mutexes** and **semaphores**.
 
 ## Overview
 
+![](https://zhen404.com/dining_phil.png)
 In this project, you'll simulate multiple philosophers sitting at a round table, each requiring two forks to eat. Philosophers must alternate between thinking, eating, and sleeping. If a philosopher has not eaten within a specific time, they will die due to starvation. The program handles this concurrency using threads and mutexes to ensure safe access to the shared resources (forks).
 
 ### Main Concepts
