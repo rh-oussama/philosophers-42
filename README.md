@@ -26,18 +26,6 @@ To compile the project, run the following command:
 make
 ```
 
-To clean the compiled files:
-
-```bash
-make clean
-```
-
-To recompile:
-
-```bash
-make re
-```
-
 ### Running the Program
 
 The program is executed with the following arguments:
